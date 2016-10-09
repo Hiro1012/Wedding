@@ -40,17 +40,17 @@ a {
 }
 
 .loader__bar {
-    font-size: 0.6rem;
-    width: 6.4rem;
+    font-size: 0.8em;
+    width: 8em;
     color: #fff;
-    line-height: 1.2rem;
-    height: 1.25rem;
+    line-height: 1.6em;
+    height: 1.6em;
     position: absolute;
     left: 50%;
     top: 50%;
     text-align: center;
-    margin-left: -3.2rem;
-    margin-top: -0.75rem;
+    margin-left: -4em;
+    margin-top: -1em;
     overflow: hidden;
 }
 
@@ -65,19 +65,19 @@ a {
     z-index: 3;
     width: 0;
     background: #1A3831;
-    border-radius: 0.75rem;
+    border-radius: 1em;
 }
 
 .loader__progress-bg {
     z-index: 2;
     width: 100%;
     background: #3C776A;
-    border-radius: 0.75rem;
+    border-radius: 1em;
 }
 
 .loader__info {
     width: 100%;
-    font-size: 0.6rem;
+    font-size: 0.8em;
     z-index: 4;
 }
 

@@ -18,51 +18,6 @@
         doc.addEventListener('DOMContentLoaded', recalc, false);
     })(document, window);
 
-    // //模拟加载慢的效果
-    // var callbacks = [];
-    // imgLoader([
-    //     'images/thumbnail.jpeg',
-    //     'images/bg1.png',
-    //     'images/letter.png',
-    //     'images/header.png',
-    //     'images/footer.png',
-    //     'images/music_off.png',
-    //     'images/arrow.png',
-    //     'images/window.png',
-    //     'images/box.png',
-    //     'images/picture.jpeg',
-    //     'images/music_off.png',
-    //     'images/arrow.png',
-    //     'images/footer2.png',
-    //     'images/music_off.png'
-    // ], function (percentage) {
-    //     callbacks.push((function (percent, i) {
-    //         return function () {
-    //             setTimeout(function () {
-    //                 var percentT = percent * 100;
-    //                 $('#loader__info').html('Loading ' + (parseInt(percentT)) + '%');
-    //                 $('#loader__progress')[0].style.width = percentT + '%';
-    //                 if (percent == 1) {
-    //                     setTimeout(function () {
-    //                         $('#loader').remove();
-    //                         Swipe.init();
-    //                     }, 600);
-    //                 }
-    //                 callbacks[i + 1] && callbacks[i + 1]();
-    //             }, 600);
-    //         }
-    //     })(percentage, callbacks.length));
-    //
-    //     if (percentage == 1) {
-    //         callbacks[0]();
-    //     }
-    // });
-
-    //=================================================
-    //* 以上代码为模拟网速慢的情况，特意对进度处理的回调做了延迟
-    //* 真实环境，应该使用下面注释的代码
-    //=================================================
-
     imgLoader([
         'images/thumbnail.jpeg',
         'images/bg1.png',
@@ -124,17 +79,17 @@
     });
 
 
-    window.onload = function () {
-        var mySwiper = new Swiper('.swiper-container', {
-            direction: 'vertical',
-            loop: true,
-            onInit: function (swiper) { //Swiper2.x的初始化是onFirstInit
-                swiperAnimateCache(swiper); //隐藏动画元素
-                swiperAnimate(swiper); //初始化完成开始动画
-            },
-            onSlideChangeEnd: function (swiper) {
-                swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
-            }
-        });
-    };
+    // window.onload=function(){
+    var mySwiper = new Swiper('.swiper-container', {
+        direction: 'vertical',
+        loop: true,
+        onInit: function (swiper) { //Swiper2.x的初始化是onFirstInit
+            swiperAnimateCache(swiper); //隐藏动画元素
+            swiperAnimate(swiper); //初始化完成开始动画
+        },
+        onSlideChangeEnd: function (swiper) {
+            swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+        }
+    });
+    // };
 })();
