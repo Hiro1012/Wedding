@@ -293,7 +293,7 @@ a {
 
 /*第二页*/
 .page2 {
-    background: url("../images/bg2.png") no-repeat bottom;
+    background: url("../images/bg2.jpg") no-repeat bottom;
     background-size: cover;
 }
 
@@ -420,7 +420,7 @@ a {
 
 /*第三页*/
 .page3 {
-    background: url("../images/bg3.png") no-repeat 20% -4rem;
+    background: url("../images/bg3.jpg") no-repeat 20% -4rem;
     background-size: 115%;
 }
 

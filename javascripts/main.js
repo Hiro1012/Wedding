@@ -65,7 +65,7 @@
 
     imgLoader([
         'images/thumbnail.jpeg',
-        'images/bg1.png',
+        'images/bg1.jpg',
         'images/letter.png',
         'images/header.png',
         'images/footer.png',
