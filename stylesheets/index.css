@@ -40,17 +40,17 @@ a {
 }
 
 .loader__bar {
-    font-size: 0.8em;
-    width: 8em;
+    font-size: 0.6rem;
+    width: 6.4rem;
     color: #fff;
-    line-height: 1.6em;
-    height: 1.6em;
+    line-height: 1.2rem;
+    height: 1.2rem;
     position: absolute;
     left: 50%;
     top: 50%;
     text-align: center;
-    margin-left: -4em;
-    margin-top: -1em;
+    margin-left: -3.2rem;
+    margin-top: -0.75rem;
     overflow: hidden;
 }
 
@@ -65,19 +65,19 @@ a {
     z-index: 3;
     width: 0;
     background: #1A3831;
-    border-radius: 1em;
+    border-radius: 0.75rem;
 }
 
 .loader__progress-bg {
     z-index: 2;
     width: 100%;
     background: #3C776A;
-    border-radius: 1em;
+    border-radius: 0.75rem;
 }
 
 .loader__info {
     width: 100%;
-    font-size: 0.8em;
+    font-size: 0.6rem;
     z-index: 4;
 }
 
@@ -85,11 +85,6 @@ a {
 .swiper-slide {
     position: relative;
 }
-
-/*.page1 {*/
-/*background: url("../images/bg1.png") no-repeat;*/
-/*background-size: cover;*/
-/*}*/
 
 /*invitation*/
 .page1 div:nth-of-type(1) {
@@ -293,7 +288,7 @@ a {
 
 /*第二页*/
 .page2 {
-    background: url("../images/bg2.png") no-repeat bottom;
+    background: url("../images/bg2.jpg") no-repeat bottom;
     background-size: cover;
 }
 
@@ -420,7 +415,7 @@ a {
 
 /*第三页*/
 .page3 {
-    background: url("../images/bg3.png") no-repeat 20% -4rem;
+    background: url("../images/bg3.jpg") no-repeat 20% -4rem;
     background-size: 115%;
 }
 
