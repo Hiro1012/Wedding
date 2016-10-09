@@ -64,12 +64,12 @@
             audio && (audio.pause());
             musicBtn.addClass('pause').removeClass('play');
         }
-        videoPlayer.src = "http://v.qq.com/iframe/player.html?vid=e0334m0sclp&tiny=0&auto=1";
+        videoPlayer.src = "https://v.qq.com/iframe/player.html?vid=e0334m0sclp&tiny=0&auto=1";
         videoContainer.show();
         closeBtn.show();
     });
     closeBtn.on("click", function () {
-        videoPlayer.src = "http://v.qq.com/iframe/player.html?vid=e0334m0sclp&tiny=0&auto=0";
+        videoPlayer.src = "https://v.qq.com/iframe/player.html?vid=e0334m0sclp&tiny=0&auto=0";
         videoContainer.hide();
         closeBtn.hide();
         if (musicBtn.hasClass('pause')) {
