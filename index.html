@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no"/>
+
+    <title>我们结婚了</title>
+
+    <link rel="stylesheet" href="tools/swiper-3.3.1.min.css">
+    <link rel="stylesheet" href="tools/animate.min.css">
+
+    <link rel="stylesheet" href="stylesheets/index.css">
+</head>
+<body>
+<!--缩略图-->
+<div style="display: none">
+    <img src="">
+</div>
+
+<audio src="A%20Todo%20Color-Las%20Escarlatinas.mp3" autoplay="autoplay" loop="loop" id="audio"></audio>
+
+<div class="swiper-container">
+    <section id="loader" class="loader">
+        <div class="loader__bar">
+            <div class="loader__progress-bg"></div>
+            <div id="loader__progress" class="loader__progress"></div>
+            <div id="loader__info" class="loader__info">Loading 0%</div>
+        </div>
+    </section>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide page1">
+            <img src="">
+            <img src="">
+            <img src="" class="ani"
+                 swiper-animate-effect="fadeIn"
+                 swiper-animate-duration="3s"
+                 swiper-animate-delay="0.2s">
+            <img src="" class="ani"
+                 swiper-animate-effect="fadeIn"
+                 swiper-animate-duration="3s"
+                 swiper-animate-delay="0.2s">
+            <img src="" class="music_btn play">
+            <img src="" class="arrow">
+
+            <div class="ani"
+                 swiper-animate-effect="fadeIn"
+                 swiper-animate-duration="3s"
+                 swiper-animate-delay="0.5s">
+                <p>Wedding Invitation</p>
+            </div>
+            <div class="ani"
+                 swiper-animate-effect="fadeIn"
+                 swiper-animate-duration="3s"
+                 swiper-animate-delay="0.5s">
+                <p>林显龙 & 林锂依</p>
+            </div>
+            <div class="ani"
+                 swiper-animate-effect="fadeIn"
+                 swiper-animate-duration="3s"
+                 swiper-animate-delay="0.5s">
+                <p>2016 年 11 月 08 日</p>
+            </div>
+        </div>
+
+        <div class="swiper-slide page2">
+            <img src="" class="ani"
+                 swiper-animate-effect="fadeIn"
+                 swiper-animate-duration="3s"
+                 swiper-animate-delay="0.2s">
+            <img src="">
+            <img src="" class="picture">
+            <img src="" class="music_btn play">
+            <img src="" class="arrow">
+
+            <div class="ani"
+                 swiper-animate-effect="fadeIn"
+                 swiper-animate-duration="3s"
+                 swiper-animate-delay="0.5s">
+                <p>八年缱绻 未忘初心</p>
+            </div>
+            <div class="ani"
+                 swiper-animate-effect="fadeIn"
+                 swiper-animate-duration="3s"
+                 swiper-animate-delay="1.5s">
+                <p>愿 与简单人 做简单事</p>
+            </div>
+            <div class="please_click">
+                <p>点击照片播放视频</p>
+            </div>
+
+            <div class="video_container">
+                <iframe id="video_player" frameborder="0" width="100%" height=320 allowfullscreen></iframe>
+            </div>
+            <a class="close_btn"></a>
+        </div>
+
+        <div class="swiper-slide page3">
+            <img src="" class="ani"
+                 swiper-animate-effect="fadeIn"
+                 swiper-animate-duration="3s"
+                 swiper-animate-delay="0.2s">
+            <img src="" class="music_btn play">
+            <div class="ani"
+                 swiper-animate-effect="fadeIn"
+                 swiper-animate-duration="3s"
+                 swiper-animate-delay="1.5s">
+                <p>林显龙 & 林锂依</p>
+                <p>谨定于</p><br>
+
+                <p>二〇一六年十月二十九日 星期六</p>
+                <p>于潮州市  喜鹊大酒店 三楼中华厅
+                    <a href="http://api.map.baidu.com/marker?location=23.658867,116.619233&title=喜鹊大酒店&output=html">（查看地图）</a>
+                </p>
+                <p>敬备喜宴</p>
+                <p>五时恭候 六时入席</p><br>
+
+                <p>二〇一六年十一月八日 星期二</p>
+                <p>于开平市  花园酒店  一楼国宾厅
+                    <a href="http://api.map.baidu.com/marker?location=22.380851,112.680092&title=花园酒店&output=html">（查看地图）</a>
+                </p>
+                <p>举行结婚典礼</p>
+                <p>六时恭候 七时入席</p><br>
+
+                <p>诚挚邀请您出席</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="tools/jquery-1.10.1.min.js"></script>
+<script src="tools/swiper-3.3.1.jquery.min.js"></script>
+<script src="tools/swiper.animate1.0.2.min.js"></script>
+
+<script src="javascripts/imgLoader.js"></script>
+<script src="javascripts/main.js"></script>
+</body>
+</html>
