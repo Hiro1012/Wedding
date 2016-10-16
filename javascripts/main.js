@@ -21,7 +21,8 @@
     imgLoader([
         'images/thumbnail.jpeg',
         'images/bg1.jpg',
-        'images/letter.png',
+        // 'images/letter.png',
+        'images/logo3.png',
         'images/header.png',
         'images/footer.png',
         'images/music_off.png',
@@ -31,7 +32,21 @@
         'images/picture.jpeg',
         'images/music_off.png',
         'images/arrow.png',
+        // 'images/pic1.jpeg',
+        // 'images/pic2.jpeg',
+        // 'images/pic3.jpeg',
+        'images/paper.png',
+        'images/footer3.png',
+        'images/music_off.png',
+        'images/arrow.png',
+        // 'images/pic4.jpeg',
+        // 'images/pic5.jpeg',
+        // 'images/pic6.jpeg',
+        'images/cat.png',
+        'images/music_off.png',
+        'images/arrow.png',
         'images/footer2.png',
+        'images/anniversary.png',
         'images/music_off.png'
     ], function (percentage) {
         var percentT = percentage * 100;
@@ -77,7 +92,6 @@
             musicBtn.addClass('play').removeClass('pause');
         }
     });
-
 
     window.onload = function () {
         var mySwiper = new Swiper('.swiper-container', {
